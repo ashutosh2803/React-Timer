@@ -1,0 +1,43 @@
+.TimerWrapper{
+    background-color: bisque;
+    width: 30%;
+    margin: 1% auto;
+    border-radius: 20px;
+    height: 30vh;
+    padding: 2%;
+}
+.seconds{
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 15%;
+}
+.seconds > span{
+    font-weight: bold;
+    font-size: 70px;
+}
+.btnWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.toggleBtn{
+    font-weight: bold;
+    letter-spacing: 0.1ch;
+    padding: 2%;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    margin: 1%;
+    border: 1px solid black;
+}
+.resetBtn{
+    font-weight: bold;
+    letter-spacing: 0.1ch;
+    padding: 2%;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    margin: 1%;
+    border: 1px solid black;
+}
